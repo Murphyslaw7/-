@@ -3,7 +3,7 @@ describe('sample render test', () => {
     cy.visit('/');
   });
 
-  it('', () => {
-    cy.get('h1').contains('');
+  it('displays the title text', () => {
+    cy.get('h1').contains('UN');
   });
 });
